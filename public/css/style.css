@@ -58,15 +58,15 @@ body {
 
 
 .tatImageG {
-   
-    height: 200px;
-    width: 200px;
+   /*margin: 1%;*/
+    height: 250px;
+    width: 250px;
     display: inline-block;
 }
 .card {
    
-    height: 200px;
-    width: 200px;
+    height: 250px;
+    width: 250px;
     margin: 1%;
     display: inline-block;
 }
@@ -202,11 +202,21 @@ body {
 
 .tatImageG {
    
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 300px;
     margin: 0%;
     display: inline-block;
 }
+
+.card {
+   
+    height: 300px;
+    width: 300px;
+    margin: 1%;
+    display: inline-block;
+    margin-left: 10%;
+}
+
 
 .artistImage {
     height: 400px;
