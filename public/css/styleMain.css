@@ -149,6 +149,18 @@ body {
      margin-top: -52%;
  }
  
+ #sideLogo {
+    margin-top: -10%;
+    margin-bottom: -45%;
+    height: 300px;
+    width: 100%;
+}
+
+
+#sideStuff {
+    margin-left: 33%;
+}
+ 
 
 }
 
