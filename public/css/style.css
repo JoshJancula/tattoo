@@ -125,12 +125,31 @@ body {
     padding: 10%;
 }
 #aboutArtist {
-    /*margin-top: 3%;*/
+    margin-top: -5%;
     margin-right: 8%;
 }
 
 #pierceCost {
     margin-left: 0%;
+}
+ #menuButton {
+     margin-top: -52%;
+ }
+ 
+#sideLogo {
+    margin-top: -10%;
+    margin-bottom: -55%;
+    height: 300px;
+    width: 100%;
+}
+
+
+#sideStuff {
+    margin-left: 33%;
+}
+
+#rateContent {
+    margin-top: -5%;
 }
 
 }
@@ -239,5 +258,7 @@ body {
 #sideStuff {
     margin-left: 33%;
 }
-
+#rateContent {
+    margin-top: -10%;
+}
 }
