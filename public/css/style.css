@@ -77,8 +77,8 @@ body {
 }
 
 .artistImage {
-    height: 300px;
-    width: 200px;
+    height: 400px;
+    width: 300px;
 }
 
 #aboutArtist {
@@ -226,6 +226,18 @@ body {
 
 #pierceCost {
     margin-left: 0%;
+}
+
+#sideLogo {
+    margin-top: -10%;
+    margin-bottom: -45%;
+    height: 300px;
+    width: 100%;
+}
+
+
+#sideStuff {
+    margin-left: 33%;
 }
 
 }

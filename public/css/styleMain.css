@@ -229,5 +229,15 @@ body {
     width: 250px;
 }
 
+#sideLogo {
+    margin-top: -10%;
+    margin-bottom: -45%;
+    height: 300px;
+    width: 100%;
+}
 
+
+#sideStuff {
+    margin-left: 33%;
+}
 }
