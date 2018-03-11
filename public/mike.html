@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Inline" rel="stylesheet">
+
+</head>
+
+<body>
+    <header></header>
+    <main>
+
+        <!--header-->
+        <div class="row">
+            <div class="row">
+                <img id="logoArtist" src="./images/main/infamousLogo.png">
+            </div>
+            <div class="row center">
+                <a href="#" data-activates="slide-out" class="button-collapse hide-on-med-and-up"><i id="menuButton" class=" section scrollspy medium material-icons white-text center">menu</i></a>
+            </div>
+            <div class="row center hide-on-small-only" id="fakeNav">
+                <div class="col l3 m3"></div>
+                <div class="col l2 m2 center">
+                    <a class="white-text" href="/index">Main</a>
+                </div>
+
+                <div class="col l2 m2">
+                    <a class="dropdown-button red-text" href="#!" data-activates="dropdown1">Artists</a></div>
+
+                <div class="col l2 m2 center white-text">
+                    <a class="white-text" href="/rates">Rates</a>
+                </div>
+
+                <div class="col l3 m3"></div>
+                <ul id="dropdown1" class="black dropdown-content">
+                    <li><a href="/mike">Mike</a></li>
+                    <li><a href="/ike">Ike</a></li>
+
+                    <li><a href="/chris">Chris</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!--sideNav hidden on large scrrens-->
+
+        <ul id="slide-out" class="side-nav hide-on-large black darken-2">
+            <li><a href="/index" class="white-text activeNav" id="home">Home</a></li>
+
+            <li> <a class="dropdown-button white-text" href="#!" data-activates="dropdown2">Artists<i class="material-icons right">arrow_drop_down</i></a></li>
+            <li><a href="/rates" class="white-text" id="rates">Rates</a></li>
+        </ul>
+        <ul id="dropdown2" class="dropdown-content">
+            <li><a href="/mike">Mike</a></li>
+            <li><a href="/ike">Ike</a></li>
+
+            <li><a href="/chris">Chris</a></li>
+        </ul>
+        <!--end side nav-->
+
+        <!--begin main area-->
+        <div class="row">
+            <div class="col l3 s10 right" id="aboutArtist">
+                <!--put photo of mike here-->
+                <div class="row center">
+                    <h4 class="white-text">Mike</h4>
+                    <img class="artistImage" src="images/mike/mikeImage2.jpg">
+                </div>
+
+                <div class="row center">
+                    <a href="#contactModal" id="contactButton" class="btn waves-effect modal-trigger waves-light red darken-4 center"><span class="white-text">Contact</span></a><br><br>
+                    <a href="#calendarModal" id="calendarButton" class="btn waves-effect modal-trigger waves-light red darken-4 center"><span class="white-text">Schedule</span></a>
+
+                </div>
+                <div class="row center">
+                    <img class="artistImageBottom" src="images/mike/mikeImage3.jpg">
+                </div>
+                <div class="row center" id="faceBookLink">
+                    <p class="white-text center">
+                        View more of Mike's work on facebook</p>
+                    <a href="https://www.facebook.com/pg/InfamousInkTattooStudio/photos/?tab=album&album_id=748093885201754"><img id=faceBookLogo src="images/main/logo_facebook.png" class="center"></a>
+                </div>
+            </div>
+
+
+
+
+            <div class="col l8 s10" id="artArea">
+                <!--<div class="container">-->
+                <div class="row">
+                    <div class="col l1"></div>
+                    <div class="col l10 s12" id="mikeArt"></div>
+                    <div class="col l1"></div>
+                </div><br>
+                <div class="row center">
+                    <div id="viewMore" class="btn waves-effect waves-light red darken-4 center"><span class="white-text">View More</span></div>
+
+
+
+                </div>
+
+                <div class="row" id="mikeGallery"></div>
+                <div class="row center white-text" id="para">
+                    <div id="viewLess" class="btn waves-effect waves-light red darken-4 center"><span class="white-text">View Less</span></div><br>
+
+
+
+                    <!--<div class="row white-text center m12" id="para">-->
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis
+                        nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui
+                        blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem
+                        insitam; est usus legentis in iis qui facit eorum claritatem.</p>
+
+                    <!--</div>-->
+
+
+                </div>
+                <!--end main-->
+
+
+                <!--this is contatct modal-->
+                <div id="contactModal" class="modal black">
+                    <div class="modal-content" id="form">
+                        <form class="col l12">
+                            <div class="row">
+                                <div class="input-field col l12">
+                                    <input id="name" type="text" class="white-text">
+                                    <label for="email">Name</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col l12">
+                                    <input id="phone" type="text" class="white-text">
+                                    <label for="phone">Phone Number</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col l12">
+                                    <input id="email" type="email" class="white-text">
+                                    <label for="email">E-mail</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col l12">
+                                    <input id="message" type="text" class="white-text">
+                                    <label for="text">Message</label>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="input-field">
+                                    <a href="#" id="submitButton" class="btn waves-effect waves-light red darken-4 center"><span class="white-text">Submit</span></a>
+                                </div>
+                            </div>
+
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Okay</a>
+                    </div>
+                </div>
+
+                </form>
+
+
+                <!--end contact moda-->
+
+                <!-- thankYou modal -->
+
+                <div id="thankYou" class="modal black">
+                    <div class="modal-content">
+                        <h4 class="white-text">Thank You!</h4>
+                        <p class="white-text">We will get back with you as soon as possible!</p>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Okay</a>
+                    </div>
+                </div>
+
+                </form>
+
+            </div>
+            <!--end of modal-->
+
+            <!-- pleaseComplete -->
+
+            <div id="pleaseComplete" class="modal black">
+                <div class="modal-content">
+                    <div class="white-text" id="wrong"></div>
+                </div>
+                <div class="modal-footer">
+                    <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Okay</a>
+                </div>
+            </div>
+
+            </form>
+
+
+            <!--end of modal-->
+
+            <!-- calendar modal -->
+
+            <div id="calendarModal" class="modal black">
+                <div class="modal-content">
+                    <iframe id="calendarPic" src="https://calendar.google.com/calendar/embed?src=joshjanculawebpage%40gmail.com&ctz=America%2FNew_York" style="border: 0" width="400" height="300" frameborder="0" scrolling="no"></iframe><br>
+                    <div class="row">
+                        <h5 class="white-text">See an available time you'd like? Schedule it here.</h5>
+                    </div>
+                    <form>
+                        <div class="row">
+                            <div class="input-field col l12">
+                                <input id="time" type="text" class="white-text">
+                                <label for="time">Time</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col l12">
+                                <input id="date" type="text" class="white-text">
+                                <label for="date">Date</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field">
+                                <a href="#contactModal" id="submitTime" class="btn waves-effect waves-light modal-action modal-close modal-trigger red darken-4 center"><span class="white-text">Schedule</span></a>
+                            </div>
+                        </div>
+                    </form>
+
+                </div>
+                <div class="modal-footer">
+                    <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Nope</a>
+                </div>
+            </div>
+
+            </form>
+
+        </div>
+        <!--end of modal-->
+
+        </div>
+        </div>
+
+        </div>
+        </div>
+        <!--end main-->
+
+
+    </main>
+
+    <div class="row center hide-on-med-and-up">
+        <a href="#menuButton" class="btn-floating btn-large waves-effect waves-light red darken-4"><i class="material-icons">arrow_upward</i></a>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.0.min.js " integrity="sha256-RTQy8VOmNlT6b2PIRur37p6JEBZUE7o8wPgMvu18MC4=" crossorigin=" anonymous "></script>
+    <script src="https://www.gstatic.com/firebasejs/4.9.0/firebase.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js "></script>
+    <script>
+        $(document).ready(function() {
+            $('.modal').modal();
+            $('.collapsible').collapsible();
+            $(".button-collapse").sideNav();
+            $('.scrollspy').scrollSpy();
+        });
+    </script>
+
+    <script src="./js/mike.js"></script>
+</body>
+
+</html>

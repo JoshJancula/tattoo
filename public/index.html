@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link rel="stylesheet" href="css/styleMain.css" type="text/css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Inline" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Playball" rel="stylesheet">
+
+</head>
+
+<body>
+    <header></header>
+    <main>
+        <!--header area-->
+        <div class="row section scrollspy" id="pageTop">
+
+            <div class="col l7 s12">
+                <div class="row">
+                    <img id="logo" src="./images/main/infamousLogo.png">
+                </div>
+                <div class="row center">
+                    <a href="#" data-activates="slide-out" class="button-collapse hide-on-large-only"><i id="menuButton" class="medium material-icons white-text center">menu</i></a>
+                </div>
+            </div>
+            <div class="col l5 s12">
+                <div class="row">
+                    <div class="col l2 s0"></div>
+                    <div class="col l8 center">
+                        <div class="row center hide-on-med-and-down" id="fakeNav">
+
+                            <div class="col l3 m2 center">
+                                <a class="red-text" href="/index">Main</a>
+                            </div>
+                          
+                            <div class="col l3 m2">
+                                <a class="dropdown-button white-text" href="#!" data-activates="dropdown1">Artists</a></div>
+
+                            <div class="col l3 m2 center white-text">
+                                <a class="white-text" href="/rates">Rates</a>
+                            </div>
+                            <ul id="dropdown1" class="dropdown-content">
+                                <li><a href="/mike">Mike</a></li>
+                                <li><a href="/ike">Ike</a></li>
+
+                                <li><a href="/chris">Chris</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+                    <!--end nav-->
+                    <div class="col l2 s0"></div>
+                </div>
+                <!--contact popout-->
+                <div class="row">
+                    <div class="col l12 s12">
+                        <ul class="collapsible popout center" data-collapsible="accordion">
+                            <li>
+                                <div class="collapsible-header"><i class="material-icons">add_location</i>Location</div>
+                                <!--location-->
+                                <div class="collapsible-body white black-text center">
+                                    <p>11229 E. Independence Blvd., Matthews, NC 28105
+                                    </p>
+                                    <!--map from google-->
+                                    <iframe id="mapPic" src="https://www.google.com/maps/embed?pb=!1m22!1m12!1m3!1d104432.4400682165!2d-80.76676109521847!3d35.11885085587694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m7!3e6!4m0!4m4!1s0x88542475979c5f47%3A0xbe9254238518c94b!3m2!1d35.118871!2d-80.696721!5e0!3m2!1sen!2sus!4v1520635686138"
+                                        width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                                </div>
+                            </li>
+                            <li>
+                                <!--phone info-->
+                                <div class="collapsible-header"><i class="material-icons">call</i>Call Us</div>
+
+                                <div class="collapsible-body white black-text center">
+                                    <p>704-708-8288</p>
+
+                                </div>
+                            </li>
+                            <li>
+                                <!--hours-->
+                                <div class="collapsible-header white"><i class="material-icons">timer</i>Hours</div>
+
+                                <div class="collapsible-body white black-text center">
+                                    <p>Monday - Thursday: <br> 11am - 8pm<br> Friday - Saturday: <br> 11am - 10pm
+
+                                        <br> Sunday:
+                                        <br> Appointment Only
+
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--sideNav hidden on large scrrens-->
+
+        <ul id="slide-out" class="side-nav hide-on-large black darken-2">
+            <li><a href="/index" class="white-text activeNav" id="home">Home</a></li>
+
+            <li> <a class="dropdown-button white-text" href="#!" data-activates="dropdown2">Artists<i class="material-icons right">arrow_drop_down</i></a></li>
+            <li><a href="/rates" class="white-text" id="rates">Rates</a></li>
+        </ul>
+        <ul id="dropdown2" class="dropdown-content">
+            <li><a href="/mike">Mike</a></li>
+            <li><a href="/ike">Ike</a></li>
+
+            <li><a href="/chris">Chris</a></li>
+        </ul>
+        <!--end side nav-->
+
+        <!--end header area-->
+
+        <!--desktop view-->
+        <div class="row hide-on-small-only" id="shopInfo">
+            <div class="col l7 s10" id="shop1">
+                <div class="row">
+                    <h4 class="center">Infamous Ink Tattoo Studio is not your everyday, run-of-the-mill tattoo shop. In fact, we are no "Shop" at all. We are an Exclusive, High-end, Custom-Artwork Studio. Specializing in one of a kind tattoos and out of this world body
+                        mods. Our artists are dedicated and passionate about their work with over 40 years of collective tattooing experience. Infamous Ink is outfitted with top-of-the-line equipment from state-of-the-art sterilization gear to Plush,
+                        Luxury InkBed Tattoo Chairs. Don't just take our word for it, give us a call and set up your appointment today, </h4>
+                </div>
+                <div class="row center show-on-small-only" id="mainArt">
+                    <!--carousel of all artist photos-->
+                </div>
+            </div>
+            <div class="col l5 s10" id="shopPics" class="center">
+                <div class="row" id="shop2">
+
+                </div>
+                <div class="row" id="shop3">
+                </div>
+                <div class="row" id="shop4">
+                </div>
+                <div class="row center">
+
+
+                    <div class="col l6 center">
+                        <a href="https://www.facebook.com/InfamousInkTattooStudio/"><img id="faceBookLogo" src="images/main/facebook.png"></a><br>
+
+                    </div>
+                    <div class="col l6 center">
+                        <a href="https://www.instagram.com/explore/locations/9357338/"><img id="instagramLogo" src="images/main/instagram.jpeg"></a><br>
+
+                    </div>
+                </div>
+                <div class="row center">
+                    <a href="#historyModal" id="history" class="btn waves-effect waves-light red darken-4 center modal-trigger"><span class="white-text">Tattoo History</span></a><br>
+
+                </div>
+            </div>
+        </div>
+        <!--end desktop-->
+
+        <!--begin mobile-->
+        <div class="row hide-on-med-and-up" id="shopInfo">
+            <div class="row" id="shop2">
+            </div>
+            <div class="row">
+                <p class="center">Infamous Ink Tattoo Studio is not your everyday, run-of-the-mill tattoo shop. In fact, we are no "Shop" at all. We are an Exclusive, High-end, Custom-Artwork Studio. Specializing in one of a kind tattoos and out of this world body mods.
+                </p>
+            </div>
+            <div class="row" id="mainArt2">
+                <!--carousel of all artist photos-->
+            </div>
+            <div class="row">
+                <p class="center">Our artists are dedicated and passionate about their work with over 40 years of collective tattooing experience. Infamous Ink is outfitted with top-of-the-line equipment from state-of-the-art sterilization gear to Plush, Luxury InkBed
+                    Tattoo Chairs. Don't just take our word for it, give us a call and set up your appointment today.</p>
+            </div>
+            <div class="row" id="shop4">
+            </div>
+            <div class="row center">
+
+
+                <div class="col l6 s12 center">
+                    <a href="#"><img id="faceBookLogo" src="images/main/facebook.png"></a><br>
+
+                </div>
+                <div class="col l6 s12 center">
+                    <a href="#"><img id="instagramLogo" src="images/main/instagram.jpeg"></a><br>
+
+                </div>
+            </div>
+            <div class="row center">
+                <a href="#historyModal" id="history" class="btn waves-effect waves-light red darken-4 center modal-trigger"><span class="white-text">Tattoo History</span></a><br>
+
+            </div>
+        </div>
+
+        <!--end mobile-->
+
+    </main>
+    <!--tattoo history model-->
+    <div id="historyModal" class="modal">
+        <div class="modal-content">
+            <h4 class="center">Tattoo History</h4>
+            <p class="center">Contained below is a brief history of the Tattoo. I found this interesting, so I have placed it here for your enjoyment. for the full article you can go to Designboom the word tattoo is said to has two major derivations- from the polynesian
+                word ‘ta’ which means striking something and the tahitian word ‘tatau’ which means ‘to mark something’. the history of tattoo began over 5000 years ago and is as diverse as the people who wear them. tattoos are created by inserting colored
+                materials beneath the skins surface. the first tattoos probably were created by accident. someone had a small wound, and rubbed it with a hand that was dirty with soot and ashes from the fire. once the wound had healed, they saw that a
+                mark stayed permanently. despite the social sciences' growing fascination with tattooing, and the immense popularity of tattoos themselves, the practice has not left much of a historical record.
+            </p>
+            <h5 class="center">Bronze Age</h5>
+            <p class="center">in 1991, a five thousand year old tattooed man ‘ötzi the ice man’ made the headlines of newspapers all over the world when his frozen body was discovered on a mountain between austria and italy. this is the best preserved corpse of that period
+                ever found. the skin bears 57 tattoos: a cross on the inside of the left knee, six straight lines 15 centimeters long above the kidneys and numerous parallel lines on the ankles. the position of the tattoo marks suggests that they were
+                probably applied for therapeutic reasons (treatment of arthritis).</p>
+            <h5 class="center">Pazyryk Culture</h5>
+            <p class="center">in 1948, 120 miles north of the border between russia and china, russian archeologist sergei rudenko began excavating a group of tombs, or kurgans, in the high altai mountains of western and southern siberia. mummies were found that date from
+                around 2400 years ago. the tattoos on their bodies represent a variety of animals. the griffins and monsters are thought to have a magical significance but some elements are believed to be purely decorative. altogether the tattoos are
+                believed to reflect the status of the individual.
+            </p>
+            <h5 class="center">Egypt</h5>
+            <p class="center">written records, physical remains, and works of art relevant to egyptian tattoo have virtually been ignored by earlier egyptologists influenced by prevailing social attitudes toward the medium.today however, we know that there have been bodies
+                recovered dating to as early XI dynasty exhibiting the art form of tattoo. in 1891, archaeologists discovered the mummified remains of amunet, a priestess of the goddess hathor, at thebes who lived some time between 2160 BC and 1994 BC.
+                this female mummy displayed several lines and dots tattooed about her body - grouping dots and/or dashes were aligned into abstract geometric patterns. this art form was restricted to women only, and usually these women were associated
+                with ritualistic practice. the egyptians spread the practice of tattooing throughout the world.the pyramid-building third and fourth dynasties of egypt developed international nations with crete, greece, persia, and arabia. by 2,000 BC
+                the art of tattooing had stretched out all the way to southeast asia . the ainu (western asian nomads) then brought it with them as they moved to japan.</p>
+            <h5 class="center">Japan</h5>
+            <p class="center">the earliest evidence of tattooing in japan is found in the form of clay figurines which have faces painted or engraved to represent tattoo marks. the oldest figurines of this kind have been recovered from tombs dated 3,000 BC or older, and
+                many other such figurines have been found in tombs dating from the second and third millennia BC. these figurines served as stand-ins for living individuals who symbolically accompanied the dead on their journey into the unknown, and it
+                is believed that the tattoo marks had religious or magical significance.the first written record of japanese tattooing is found in a chinese dynastic history compiled in 297 AD. the japanese were interested in the art mostly for its decorative
+                attributes, as opposed to magical ones. the horis - the japanese tattoo artists - were the undisputed masters. their use of colors, perspective, and imaginative designs gave the practice a whole new angle. the classic japanese tattoo,
+                is a full body suit.
+            </p>
+            <h5 class="center">Polynesia</h5>
+            <p class="center">in pacific cultures tattooing has a huge historic significance. polynesian tattooing is considered the most intricate and skillful tattooing of the ancient world. polynesian peoples, believe that a person's mana, their spiritual power or life
+                force, is displayed through their tattoo. the vast majority of what we know today about these ancient arts has been passed down through legends, songs, and ritual ceremonies. elaborate geometrical designs which were often added to, renewed,
+                and embellished throughout the life of the individual until they covered the entire body.
+            </p>
+            <p class="center">in samoa, the tradition of applying tattoo, or ‘tatau’, by hand, has long been defined by rank and title, with chiefs and their assistants, descending from notable families in the proper birth order. the tattooing ceremonies for young chiefs,
+                typically conducted at the onset of puberty, were elaborate affairs and were a key part of their ascendance to a leadership role. the permanent marks left by the tattoo artists would forever celebrate their endurance and dedication to
+                cultural traditions. the first europeans who set foot on samoan soil were members of a 1787 french expedition. they got a closer look at the natives and reported that ‘the men have their thighs painted or tattooed in such a way that one
+                would think them clothed, although they are almost naked’. the mythological origins of samoan tattooing and the extraordinary cross-cultural history of tatau has been transported to the migrant communities of new zealand, and later disseminated
+                into various international subcultures from auckland to the netherlands.</p>
+            <p class="center">the hawaiian people had their traditional tattoo art, known as ‘kakau’. it served them not only for ornamentation and distinction, but to guard their health and spiritual well-being.intricate patterns, mimicking woven reeds or other natural
+                forms, graced men's arms, legs, torso and face. women were generally tattooed on the hand, fingers, wrists and sometimes on their tongue. the arrival of western missionaries forced this unique art form into decline as tattooing has been
+                discouraged or forbidden by most christian churches throughout history.</p>
+            <h5 class="center">New Zealand</h5>
+            <p class="center">the maori of new zealand had created one of the most impressive cultures of all polynesia. their tattoo, called ‘moko’, reflected their refined artistry - using their woodcarving skills to carve skin.the full-face moko was a mark of distinction,
+                which communicated their status, lines of descent and tribal affiliations. it recalled their wearer's exploits in war and other great events of their life.
+            </p>
+            <h5 class="center">Indonesia</h5>
+            <p class="center">borneo is one of the few places in the world where traditional tribal tattooing is still practiced today just as it has been for thousands of years. until recently many of the inland tribes had little contact with the outside world. as a result,
+                they have preserved many aspects of their traditional way of life, including tattooing. borneo designs have gone all around the world to form the basis of what the western people call ‘tribal’.
+            </p>
+            <h5 class="center">Africa</h5>
+            <p class="center">in africa, where people have dark skin, it is difficult to make coloured tattoos as we know them. but they want to be tattooed anyway, so they have developed another technique - they make scarifications (this is not really tattooing, but it
+                is related to tattooing). made by lifting the skin a little, and making a cut with a knife or some other sharp thing special sands or ashes were rubbed in to make raised scars in patterns on the body, it can be felt like braille lettering...
+                these patterns often follow local traditions.
+            </p>
+            <h5 class="center">Ancient Greeks and Romans</h5>
+            <p class="center">the greeks learnt tattooing from the persians.their woman were fascinated by the idea of tattoos as exotic beauty marks.the romans adopted tattooing from the greeks. roman writers such as virgil, seneca, and galenus reported that many slaves
+                and criminals were tattooed. a legal inscription from ephesus indicates that during the early roman empire all slaves exported to asia were tattooed with the words ‘tax paid’. greeks and romans also used tattooing as a punishment. early
+                in the fourth century, when constantine became roman emperor and rescinded the prohibition on christianity, he also banned tattooing on face, which was common for convicts, soldiers, and gladiators. constantine believed that the human
+                face was a representation of the image of god and should not be disfigured or defiled.
+            </p>
+            <h5 class="center">The Celts</h5>
+            <p class="center">were a tribal people who moved across western europe in times around 1200 and 700 B.C. they reached the british Isles around 400 B.C. and most of what has survived from their culture is in the areas now known as ireland, wales and scotland.
+                celtic culture was full of body art. permanent body painting was done with woad, which left a blue design on the skin. spirals are very common, and they can be single, doubled or tripled. knotwork is probably the most recognized form of
+                celtic art, with lines forming complex braids which then weave across themselves. these symbolise the connection of all life. step or key patterns, like those found in early labyrinth designs, are seen both in simple borders and full complex
+                mazes. much in the way that labyrinths are walked, these designs are symbolic of the various paths that life’s journey can take.
+            </p>
+            <h5 class="center">Central and South America</h5>
+            <p class="center">in peru, tattooed inca mummies dating to the 11th century have been found. 16th century spanish accounts of mayan tattooing in mexico and central americareveal tattoos to be a sign of courage.when cortez and his conquistadors arrived on the
+                coast of mexico in 1519 they were horrified to discover that the natives not only worshipped devils in the form of statues and idols, but had somehow managed to imprint indelible images of these idols on their skin. the spaniards, who
+                had never heard of tattooing, recognized it at once as the work of satan.the sixteenth century spanish historians who chronicled the adventures of cortez and his conquistadors reported that tattooing was widely practiced by the natives
+                of central america.
+            </p>
+            <h5 class="center">Vikings</h5>
+            <p class="center">t is very likely that the vikings were tattooed. at around year 1100 the arab ibn fadlan described a meeting with some vikings. he thought them very rude, dirty - and covered with pictures.
+            </p>
+            <h5 class="center">England</h5>
+            <p class="center">explorers returned home with tattooed polynesians to exhibit at fairs, in lecture halls and in dime museums, to demonstrate the height of european civilization compared to the ‘primitive natives’. after captain cook returned from his voyage
+                to polynesia tattooing became a tradition in the british navy. by the middle of the 18th century most british ports had at least one professional tattoo artist in residence. in 1862, the prince of wales, later to become king edward VII,
+                received his first tattoo - a jerusalem cross - on his arm. he started a tattoo fad among the aristocracy when he was tattooed before ascending to the throne. in 1882, his sons, the duke of clarence and the duke of york were tattooed by
+                the japanese master tattooist, hori chiyo.
+            </p>
+            <h5 class="center">Sailors</h5>
+            <p class="center">sailors on their ships returned home with their own tattoos... usually of a very basic style that only uses a minimum amount of details making the tattoos look quite two dimensional and flat. this often gives a cartoonish feeling and typical
+                motifs would be flowers, hearts, mermaids, ships, anchors, snakes, birds, and names.</p>
+            <h5 class="center">Criminality</h5>
+            <p class="center">for a long time, tattooing was the preserve of sailors and... criminals! in prison, the tattoo - professionally done and homemade- indelibly imprint on their bodies what these men desire in their souls: autonomy and identity. the ultimate
+                symbol for gang members are their gang tattoos, getting a permanent mark is a sign of showing total commitment to the gang. these tattoos can reveal lots of things, like, who you are/what gang you're in/ what your beliefs are (racist etc..),
+                what you have done, where you have been, how many years you have been in jail (also referred to as ‘dead time’) and even things like how many you have killed. known symbols include teardrops under the eye as well as spider webs on the
+                elbows to symbolize people killed.
+            </p>
+            <h5 class="center">Circus</h5>
+            <p class="center">the popularity of tattooing during the latter part of the nineteenth century and the first half of the twentieth century owed much to the circus. when circuses prospered, tattooing prospered. for over 70 years every major circus employed several
+                completely tattooed people. some were exhibited in sideshows; others performed traditional circus acts such as juggling and sword swallowing.
+            </p>
+            <h5 class="center">Tattoo Flash</h5>
+            <p class="center">as with other artistic mediums and cultural developments, vocabulary continually evolves, reflecting the depth and potential of body marking and of the contemporary imagination. in recent years tattooing has emerged to the forefront of popular
+                consciousness. today a tattoo ‘flash’, is a folder of tattoo-artwork by tattoo artists. styles range from the traditional and vernacular to the sacred and innovative</p>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Thanks</a>
+        </div>
+    </div>
+
+    <div class="row center hide-on-med-and-up">
+        <a href="#pageTop" class="btn-floating btn-large waves-effect waves-light red darken-2"><i class="material-icons">arrow_upward</i></a>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.0.min.js " integrity="sha256-RTQy8VOmNlT6b2PIRur37p6JEBZUE7o8wPgMvu18MC4=" crossorigin=" anonymous "></script>
+    <script src="https://www.gstatic.com/firebasejs/4.9.0/firebase.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js "></script>
+    <script src="./js/main.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.modal').modal();
+            $('.collapsible').collapsible({
+                constrainWidth: true,
+                stopPropagation: true // Stops event propagation
+            });
+            $(".button-collapse").sideNav();
+            $('.scrollspy').scrollSpy();
+            $('ul.tabs').tabs('select_tab', 'tab_id');
+
+        });
+    </script>
+    <script src="./js/main.js"></script>
+
+</body>
+
+</html>
