@@ -17,6 +17,7 @@ body {
     flex-direction: column;
     background-image: url("../images/main/fireBack.png");
     background-repeat: repeat;
+     font-family: Bungee-inline;
     /*background: black;*/
 
 }
