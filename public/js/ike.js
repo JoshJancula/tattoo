@@ -129,17 +129,25 @@ window.onload = function() {
 
     carouselInit()
 
+  // finish app button
+    $("#finishAppointment").on("click", function(event) {
+        event.preventDefault();
+        $("#contactForm").show();
+    });
+
+
     // contact button
     $("#contactButton").on("click", function(event) {
         event.preventDefault();
         $("#contactForm").show();
-
+         $("#contactButton").hide();
     });
 
     // hide the form
     $("#hideForm").on("click", function(event) {
         event.preventDefault();
         $("#contactForm").hide();
+        $("#contactButton").show();
 
     });
 

@@ -97,6 +97,12 @@ body {
     width: 300px;
 }
 
+#rates2 {
+    margin-top: 5%;
+    height: 300px;
+    width: 300px;
+}
+
 #pierceCost {
     margin-left: -8%;
 }

@@ -35,7 +35,7 @@
                             <div class="col l3 m2 center">
                                 <a class="red-text" href="/index">Main</a>
                             </div>
-                          
+
                             <div class="col l3 m2">
                                 <a class="dropdown-button white-text" href="#!" data-activates="dropdown1">Artists</a></div>
 
@@ -102,10 +102,10 @@
         <ul id="slide-out" class="side-nav hide-on-large black darken-2">
             <li><img id="sideLogo" src="images/main/infamousLogo2.jpg"></li>
             <div id="sideStuff">
-            <li><a href="/index" class="red-text" id="home">Main</a></li>
+                <li><a href="/index" class="red-text" id="home">Main</a></li>
 
-            <li> <a class="dropdown-button white-text" href="#!" data-activates="dropdown2">Artists<i class="material-icons right">arrow_drop_down</i></a></li>
-            <li><a href="/rates" class="white-text" id="rates">Rates</a></li>
+                <li> <a class="dropdown-button white-text" href="#!" data-activates="dropdown2">Artists<i class="material-icons right">arrow_drop_down</i></a></li>
+                <li><a href="/rates" class="white-text" id="rates">Rates</a></li>
         </ul>
         </div>
         <ul id="dropdown2" class="dropdown-content">
@@ -114,7 +114,7 @@
 
             <li><a href="/chris">Chris</a></li>
         </ul>
-        
+
         <!--end side nav-->
 
         <!--end header area-->
@@ -152,6 +152,15 @@
                     </div>
                 </div>
                 <div class="row center">
+                    <!-- Dropdown Trigger -->
+                    <a class='dropdown-button btn red darken-4 hide-on-med-only' href='#' data-activates='scheduleDrop'>Schedule An Appointment !</a><br><br>
+                    <!-- Dropdown Structure -->
+                    <ul id='scheduleDrop' class='dropdown-content'>
+                        <li><a href="/mike">Mike</a></li>
+                        <li><a href="/ike">Ike</a></li>
+                        <li><a href="/chris">Chris</a></li>
+                    </ul>
+                    <!--history modal trigger-->
                     <a href="#historyModal" id="history" class="btn waves-effect waves-light red darken-4 center modal-trigger"><span class="white-text">Tattoo History</span></a><br>
 
                 </div>
@@ -189,6 +198,14 @@
                 </div>
             </div>
             <div class="row center">
+                <!-- Dropdown Trigger -->
+                <a class='dropdown-button btn red darken-4' href='#' data-activates='scheduleDrop'>Schedule An Appointment !</a><br><br>
+                <!-- Dropdown Structure -->
+                <ul id='scheduleDrop' class='dropdown-content'>
+                    <li><a href="/mike">Mike</a></li>
+                    <li><a href="/ike">Ike</a></li>
+                    <li><a href="/chris">Chris</a></li>
+                </ul>
                 <a href="#historyModal" id="history" class="btn waves-effect waves-light red darken-4 center modal-trigger"><span class="white-text">Tattoo History</span></a><br>
 
             </div>
@@ -320,6 +337,7 @@
             $(".button-collapse").sideNav();
             $('.scrollspy').scrollSpy();
             $('ul.tabs').tabs('select_tab', 'tab_id');
+
 
         });
     </script>

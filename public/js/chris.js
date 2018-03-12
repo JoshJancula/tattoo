@@ -132,9 +132,18 @@ window.onload = function() {
 
 
 
+  // form button
+    $("#finishAppointment").on("click", function(event) {
+        event.preventDefault();
+        $("#contactForm").show();
+    });
+
+
+
     // contact button
     $("#contactButton").on("click", function(event) {
         event.preventDefault();
+        $("#contactButton").hide();
         $("#contactForm").show();
 
     });
@@ -143,6 +152,7 @@ window.onload = function() {
     $("#hideForm").on("click", function(event) {
         event.preventDefault();
         $("#contactForm").hide();
+        $("#contactButton").show();
 
     });
 

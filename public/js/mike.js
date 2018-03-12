@@ -127,10 +127,17 @@ window.onload = function() {
 
     carouselInit()
 
+  // finish app button
+    $("#finishAppointment").on("click", function(event) {
+        event.preventDefault();
+        $("#contactForm").show();
+    });
+
     // contact button
     $("#contactButton").on("click", function(event) {
         event.preventDefault();
         $("#contactForm").show();
+        $("#contactButton").hide();
 
     });
 
@@ -138,7 +145,7 @@ window.onload = function() {
     $("#hideForm").on("click", function(event) {
         event.preventDefault();
         $("#contactForm").hide();
-
+        $("#contactButton").show();
     });
 
     // view gallery button for mike
