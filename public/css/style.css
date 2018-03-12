@@ -267,4 +267,9 @@ body {
 #rateContent {
     margin-top: -10%;
 }
+
+#calendarPic {
+    height: 300px;
+    width: 300px;
+}
 }
