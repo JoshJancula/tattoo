@@ -132,7 +132,7 @@ window.onload = function() {
 
 
 
-  // form button
+    // form button
     $("#finishAppointment").on("click", function(event) {
         event.preventDefault();
         $("#contactForm").show();
@@ -154,6 +154,11 @@ window.onload = function() {
         $("#contactForm").hide();
         $("#contactButton").show();
 
+    });
+
+    //  needed because modal is breaking form 
+    $("#sorry").on("click", function(event) {
+        $("#contactForm").show();
     });
 
     // view gallery button for chris

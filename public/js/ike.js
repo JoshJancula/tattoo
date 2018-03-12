@@ -129,9 +129,15 @@ window.onload = function() {
 
     carouselInit()
 
-  // finish app button
+    // finish app button
     $("#finishAppointment").on("click", function(event) {
         event.preventDefault();
+        $("#contactForm").show();
+    });
+
+
+    //  needed because modal is breaking form 
+    $("#sorry").on("click", function(event) {
         $("#contactForm").show();
     });
 
@@ -140,7 +146,7 @@ window.onload = function() {
     $("#contactButton").on("click", function(event) {
         event.preventDefault();
         $("#contactForm").show();
-         $("#contactButton").hide();
+        $("#contactButton").hide();
     });
 
     // hide the form
