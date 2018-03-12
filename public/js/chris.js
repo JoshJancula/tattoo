@@ -196,6 +196,7 @@ window.onload = function() {
         else if (answer != sum) {
             $("#wrong").text("Your math is wrong!");
             $('#pleaseComplete').modal('open');
+            $("#answer").val("");
             randomNums()
         }
         else {
