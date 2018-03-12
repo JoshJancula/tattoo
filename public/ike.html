@@ -49,12 +49,12 @@
         <!--sideNav hidden on large scrrens-->
 
         <ul id="slide-out" class="side-nav hide-on-large-only black darken-2">
-           <li><img id="sideLogo" src="images/main/infamousLogo2.jpg"></li>
+            <li><img id="sideLogo" src="images/main/infamousLogo2.jpg"></li>
             <div id="sideStuff">
-            <li><a href="/index" class="white-text" id="home">Main</a></li>
+                <li><a href="/index" class="white-text" id="home">Main</a></li>
 
-            <li> <a class="dropdown-button red-text" href="#!" data-activates="dropdown2">Artists<i class="material-icons right">arrow_drop_down</i></a></li>
-            <li><a href="/rates" class="white-text" id="rates">Rates</a></li>
+                <li> <a class="dropdown-button red-text" href="#!" data-activates="dropdown2">Artists<i class="material-icons right">arrow_drop_down</i></a></li>
+                <li><a href="/rates" class="white-text" id="rates">Rates</a></li>
         </ul>
         </div>
         <ul id="dropdown2" class="dropdown-content">
@@ -75,9 +75,60 @@
                 </div>
 
                 <div class="row center">
-                    <a href="#contactModal" id="contactButton" class="btn waves-effect modal-trigger waves-light red darken-4 center"><span class="white-text">Contact</span></a><br><br>
-                    <a href="#calendarModal" id="calendarButton" class="btn waves-effect modal-trigger waves-light red darken-4 center"><span class="white-text">Schedule</span></a>
+                    <a href="#" id="contactButton" class="btn waves-effect waves-light red darken-4 center"><span class="white-text">Contact Ike</span></a><br><br>
+                    <a href="#calendarModal" id="calendarButton" class="btn waves-effect modal-trigger waves-light red darken-4 center"><span class="white-text">View Schedule</span></a>
+                    <!--form hidden until click on contact button-->
+                    <form class="col l12 s12" id="contactForm">
+                     <br>   <a href="#" id="hideForm" class="btn waves-effect waves-light red darken-4 center"><span class="white-text">Hide Form</span></a><br>
 
+                        <div class="row">
+                            <div class="input-field col l12 s12">
+                                <input id="name" type="text" class="white-text">
+                                <label for="email">Name</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col l12 s12">
+                                <input id="phone" type="text" class="white-text">
+                                <label for="phone">Phone Number</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col l12 s12">
+                                <input id="email" type="email" class="white-text">
+                                <label for="email">E-mail</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col l12 s12">
+                                <input id="message" type="text" class="white-text">
+                                <label for="text">Message</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col l3 s12">
+                                <div class="row white-text">
+                                    <div class="col l1 s2" id="digit1"></div>
+                                    <div class="col l1 s2">+</div>
+                                    <div class="col l1 s2" id="digit2"></div>
+                                    <div class="col l9 s6"></div>
+                                </div>
+                            </div>
+                            <div class="l9 s9"></div>
+                            <div class="input-field col l12 s12">
+                                <input id="answer" type="text" class="white-text">
+                                <label for="text">What is the solution to the equation above?</label>
+
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <a href="#" id="submitButton" class="btn waves-effect waves-light red darken-4 center"><span class="white-text">Submit</span></a>
+                            </div>
+                        </div>
+                    </form>
+                    <!--end form-->
                 </div>
                 <div class="row center">
                     <img class="artistImageBottom" src="images/ike/ikeImage4.jpg">
@@ -111,17 +162,15 @@
                     <div id="viewLess" class="btn waves-effect waves-light red darken-4 center"><span class="white-text">View Less</span></div><br>
 
 
-                    <p class="hide-on-large-only">My name is Michael Trimboli, also known as Ike. Originally from baltimore MD, I moved to Charlotte at a young age and I've been here ever since. In high school I discovered my love of tattoos and strived to become a tattoo artist since. After many years of pushing myself and learning as much as I could about this industry, I am finally where I am today. I've been tattooing since July 2012.
-                    <br>
-                    I specialize in black & grey, color, realism, illustrative realism, neo traditional and traditional.
-                    I also specialize in cover ups, scar cover ups as well as mastectomy scar cover ups and I am proud to be involved in <a href="https://theinkedphoenixproject.org/">The Inked Phoenix Project.</a>
+                    <p class="hide-on-large-only">My name is Michael Trimboli, also known as Ike. Originally from baltimore MD, I moved to Charlotte at a young age and I've been here ever since. In high school I discovered my love of tattoos and strived to become a tattoo artist since.
+                        After many years of pushing myself and learning as much as I could about this industry, I am finally where I am today. I've been tattooing since July 2012.
+                        <br> I specialize in black & grey, color, realism, illustrative realism, neo traditional and traditional. I also specialize in cover ups, scar cover ups as well as mastectomy scar cover ups and I am proud to be involved in <a href="https://theinkedphoenixproject.org/">The Inked Phoenix Project.</a>
 
                     </p>
-                    
-                     <h4 class="hide-on-med-and-down">My name is Michael Trimboli, also known as Ike. Originally from baltimore MD, I moved to Charlotte at a young age and I've been here ever since. In high school I discovered my love of tattoos and strived to become a tattoo artist since. After many years of pushing myself and learning as much as I could about this industry, I am finally where I am today. I've been tattooing since July 2012.
-                    <br>
-                    I specialize in black & grey, color, realism, illustrative realism, neo traditional and traditional.
-                    I also specialize in cover ups, scar cover ups as well as mastectomy scar cover ups and I am proud to be involved in <a href="https://theinkedphoenixproject.org/">The Inked Phoenix Project.</a>
+
+                    <h4 class="hide-on-med-and-down">My name is Michael Trimboli, also known as Ike. Originally from baltimore MD, I moved to Charlotte at a young age and I've been here ever since. In high school I discovered my love of tattoos and strived to become a tattoo artist since.
+                        After many years of pushing myself and learning as much as I could about this industry, I am finally where I am today. I've been tattooing since July 2012.
+                        <br> I specialize in black & grey, color, realism, illustrative realism, neo traditional and traditional. I also specialize in cover ups, scar cover ups as well as mastectomy scar cover ups and I am proud to be involved in <a href="https://theinkedphoenixproject.org/">The Inked Phoenix Project.</a>
 
                     </h4>
 
@@ -129,68 +178,7 @@
                 <!--end main-->
 
 
-                <!--this is contatct modal-->
-                <div id="contactModal" class="modal black">
-                    <div class="modal-content black" id="form">
-                        <form class="col l12 black">
-                          
-                            <div class="row">
-                                <div class="input-field col l12">
-                                    <input id="name" type="text" class="white-text">
-                                    <label for="name">Name</label>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="input-field col l12">
-                                    <input id="phone" type="text" class="white-text">
-                                    <label for="phone">Phone Number</label>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="input-field col l12">
-                                    <input id="email" type="email" class="white-text">
-                                    <label for="email">E-mail</label>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="input-field col l12">
-                                    <input id="message" type="text" class="white-text">
-                                    <label for="text">Message</label>
-                                </div>
-                            </div>
-                              <div class="row">
-                                    <div class="col l3 s3">
-                                        <div class="row white-text">
-                                            <div class="col l1 s1" id="digit1"></div>
-                                            <div class="col l1 s1">+</div>
-                                            <div class="col l1 s1" id="digit2"></div>
-                                            <div class="col l9 s9"></div>
-                                        </div>
-                                    </div>
-                                    <div class="l9 s9"></div><br>
-                                <div class="input-field col l12">
-                                    <input id="answer" type="text" class="white-text">
-                                    <label for="text">What is the solution to the equation above?</label>
-                                </div>
-                            </div>
 
-                            <div class="row">
-                                <div class="input-field">
-                                    <a href="#" id="submitButton" class="btn waves-effect waves-light red darken-4 center"><span class="white-text">Submit</span></a>
-                                </div>
-                            </div>
-
-                        </form>
-                    </div>
-                    <div class="modal-footer black">
-                        <a href="#!" class="modal-action modal-close waves-effect red-text waves-green btn-flat">Close</a>
-                    </div>
-                </div>
-
-                </form>
-
-
-                <!--end contact moda-->
 
                 <!-- thankYou modal -->
 

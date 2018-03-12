@@ -1,6 +1,7 @@
 window.onload = function() {
     $("#mikeGallery").hide();
     $("#viewLess").hide();
+    $("#contactForm").hide();
     randomNums();
 
 
@@ -126,7 +127,19 @@ window.onload = function() {
 
     carouselInit()
 
+    // contact button
+    $("#contactButton").on("click", function(event) {
+        event.preventDefault();
+        $("#contactForm").show();
 
+    });
+
+    // hide the form
+    $("#hideForm").on("click", function(event) {
+        event.preventDefault();
+        $("#contactForm").hide();
+
+    });
 
     // view gallery button for mike
     $("#viewMore").on("click", function(event) {
@@ -219,7 +232,7 @@ window.onload = function() {
             $("#answer").val("");
 
         }
-
+        $("#contactForm").hide();
     }
     // Submits the message
     function submitMessage(message) {

@@ -2,6 +2,7 @@ window.onload = function() {
     $("#chrisGallery").hide();
     $("#viewMikeG").hide();
     $("#viewLess").hide();
+    $("#contactForm").hide();
     randomNums();
 
     var chrisImages = [
@@ -131,7 +132,21 @@ window.onload = function() {
 
 
 
-    // view gallery button for mike
+    // contact button
+    $("#contactButton").on("click", function(event) {
+        event.preventDefault();
+        $("#contactForm").show();
+
+    });
+
+    // hide the form
+    $("#hideForm").on("click", function(event) {
+        event.preventDefault();
+        $("#contactForm").hide();
+
+    });
+
+    // view gallery button for chris
     $("#viewMore").on("click", function(event) {
         event.preventDefault();
         $("#viewMore").hide();
@@ -222,6 +237,7 @@ window.onload = function() {
             $("#answer").val("");
 
         }
+        $("#contactForm").hide();
 
     }
     // Submits the message
