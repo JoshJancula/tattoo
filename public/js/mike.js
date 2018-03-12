@@ -130,6 +130,7 @@ window.onload = function() {
     // finish app button
     $("#finishAppointment").on("click", function(event) {
         event.preventDefault();
+        $("#contactButton").hide();
         $("#contactForm").show();
     });
 

@@ -135,6 +135,7 @@ window.onload = function() {
     // form button
     $("#finishAppointment").on("click", function(event) {
         event.preventDefault();
+        $("#contactButton").hide();
         $("#contactForm").show();
     });
 
