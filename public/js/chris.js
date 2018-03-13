@@ -14,7 +14,7 @@ window.onload = function() {
             link: "images/chris/chris2.jpg"
         },
         {
-            link: "images/chris/chris3.jpg"
+            link: "images/chris/chris.jpg"
         },
         {
             link: "images/chris/chris4.jpg"
@@ -185,7 +185,7 @@ window.onload = function() {
         document.getElementById("digit2").innerHTML = randNum2;
 
     }
-
+    
     // Adding an event listener for when the form is submitted
     $("#submitButton").on('click', handleFormSubmit);
 

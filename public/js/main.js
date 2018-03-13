@@ -6,9 +6,7 @@ var mikeImages = [
     {
         link: "images/mike/mike2.jpg"
     },
-    // {
-    //     link: "images/mike/mike3.jpg"
-    // },
+  
     {
         link: "images/mike/mike4.jpg"
     },
@@ -174,13 +172,13 @@ var chrisMore = [
     },
 
     {
-        link: "images/chris/more/chris3.jpg"
+        link: "images/chris/more/chris13.jpg"
     },
     {
         link: "images/chris/more/chris14.jpg"
     },
     {
-        link: "images/chris/more/chris5.jpg"
+        link: "images/chris/more/chris15.jpg"
     },
     {
         link: "images/chris/more/chris16.jpg"
