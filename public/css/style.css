@@ -104,9 +104,14 @@ body {
 }
 
 #pierceCost {
+    margin-top: -3%;
     margin-left: -8%;
 }
 
+
+#tatRates {
+    margin-left: 3%;
+}
 /*end larger screens*/
 
 
@@ -134,8 +139,15 @@ body {
 }
 
 #pierceCost {
+    margin-top: 0%;
     margin-left: 0%;
 }
+
+
+#tatRates {
+    margin-left: 0%;
+}
+
  #menuButton {
      margin-top: -52%;
  }
@@ -255,6 +267,12 @@ body {
 }
 
 #pierceCost {
+    margin-top: 0%;
+    margin-left: 0%;
+}
+
+
+#tatRates {
     margin-left: 0%;
 }
 
