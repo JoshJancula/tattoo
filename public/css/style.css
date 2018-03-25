@@ -15,7 +15,7 @@ body {
       display: flex;
     min-height: 100%;
     flex-direction: column;
-    background-image: url("../images/main/fireBack.png");
+    background-image: url("../images/main/fireBack2.png");
     background-repeat: repeat;
      font-family: Bungee-inline;
     /*background: black;*/
@@ -296,3 +296,6 @@ body {
     width: 320px;
 }
 }
+
+
+/*this is copyrighted by josh jancula 2018 all rights reserved*/

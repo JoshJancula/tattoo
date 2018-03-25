@@ -9,13 +9,13 @@
 
 
 body {
-    background-image: url("../images/main/fireBack.png");
+    background-image: url("../images/main/fireBack2.png");
     background-repeat: repeat;
 
 }
 
 .nav-wrapper {
-    background-image: url("../images/main/fireBack.png");
+    background-image: url("../images/main/fireBack2.png");
 
 }
 
@@ -70,13 +70,13 @@ body {
 
 
 #faceBookLogo {
-    margin-top: 25%;
+    margin-top: 10%;
     height: 80px;
     width: 200px;
 }
 
 #instagramLogo {
-    margin-top: 25%;
+    margin-top: 10%;
     height: 80px;
     width: 200px;
 }
@@ -253,3 +253,8 @@ body {
     margin-left: 33%;
 }
 }
+
+
+
+
+/*this is copyrighted by josh jancula 2018 all rights reserved*/

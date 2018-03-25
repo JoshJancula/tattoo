@@ -268,3 +268,8 @@ window.onload = function() {
     }
 
 }
+
+
+
+
+// this is copyrighted by josh jancula 2018 all rights reserved
